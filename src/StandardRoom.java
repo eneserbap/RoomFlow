@@ -17,7 +17,7 @@ public class StandardRoom implements Room {
 
     @Override
     public String getDescription() {
-        return "Standart Tek Kişilik Oda";
+        return "Standard Single Room";
     }
 
     @Override

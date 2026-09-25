@@ -17,7 +17,7 @@ public class SuiteRoom implements Room {
 
     @Override
     public String getDescription() {
-        return "Süit Oda";
+        return "Suite Room";
     }
 
     @Override

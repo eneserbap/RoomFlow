@@ -5,23 +5,23 @@ public class Main {
         Room myRoom = factory.createRoom("STANDARD");
 
         if (myRoom != null) {
-            System.out.println("Oda başarıyla üretildi!");
-            System.out.println("Oda Tipi: " + myRoom.getDescription());
-            System.out.println("Oda Fiyatı: " + myRoom.getCost() + " TL");
-            System.out.println("Oda ID: " + myRoom.getId());
-            System.out.println("Oda Durumu: " + myRoom.getStatus());
+            System.out.println("Room successfully created!");
+            System.out.println("Room Type: " + myRoom.getDescription());
+            System.out.println("Room Price: $" + myRoom.getCost());
+            System.out.println("Room ID: " + myRoom.getId());
+            System.out.println("Room Status: " + myRoom.getStatus());
         }
 
         Room suiteRoom = factory.createRoom("SUITE");
 
         if (suiteRoom != null) {
-            System.out.println("Oda başarıyla üretildi!");
-            System.out.println("Oda Tipi: " + suiteRoom.getDescription());
-            System.out.println("Oda Fiyatı: " + suiteRoom.getCost() + " TL");
-            System.out.println("Oda ID: " + suiteRoom.getId());
-            System.out.println("Oda Durumu: " + suiteRoom.getStatus());
+            System.out.println("Room successfully created!");
+            System.out.println("Room Type: " + suiteRoom.getDescription());
+            System.out.println("Room Price: $" + suiteRoom.getCost());
+            System.out.println("Room ID: " + suiteRoom.getId());
+            System.out.println("Room Status: " + suiteRoom.getStatus());
         }
 
-        Room errorRoom = factory.createRoom("HATADENEME");
+        Room errorRoom = factory.createRoom("INVALID_TEST");
     }
 }
