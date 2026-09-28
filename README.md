@@ -44,6 +44,17 @@ How do we prevent double-booking safely?
 * Comprehensive testing of edge cases.
 * Final code clean-up and documentation review.
 
+### 🌐 Phase 5: Web Application & API Integration (Future Scope)
+* **RESTful API Development:** Exposing backend services through a robust API to allow external communication.
+* **Modern Web Interface:** Developing a responsive, user-friendly frontend (website) for customers to browse and book rooms easily.
+* **Backend-Frontend Integration:** Ensuring smooth data flow between the Java-based business logic and the web interface.
+
+### 🔮 Phase 6: Advanced System Capabilities (Future Scope)
+* **Dinamik Ödeme Sistemi (Strategy Pattern):** Implementing dynamic payment methods (Credit Card, Crypto, Bank Transfer) using the Strategy Pattern to eliminate if/else blocks and encapsulate payment algorithms.
+* **Anlık İşlem Bildirimleri (Observer Pattern):** Real-time pop-up (toast) notifications triggered in the Admin dashboard whenever a new reservation is received.
+* **İşlem Geri Alma (Command / Memento Pattern):** An "Undo" feature for the reception desk to recover accidentally canceled reservations safely.
+* **Yönetici Analitik Paneli (Dashboard):** A chart-based analytics view for admins displaying room occupancy rates and daily revenue.
+
 ---
 
 ## 🚀 How to Run
